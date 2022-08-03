@@ -1,0 +1,21 @@
+.InputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.LoginButton {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span {
+    font-size: 14px;
+    b {
+      cursor: pointer;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.Task {
+  background-color: #282828;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  span {
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+  }
+}
+
+.Right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.DatePicker {
+  width: min-content;
+}

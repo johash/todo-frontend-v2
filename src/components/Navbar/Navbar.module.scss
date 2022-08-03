@@ -1,0 +1,30 @@
+.Navbar {
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.LogoContainer {
+  width: 100px;
+  height: 60px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.Avatar {
+  cursor: pointer;
+}

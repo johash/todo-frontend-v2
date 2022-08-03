@@ -1,0 +1,126 @@
+.Sidebar {
+  background-color: #232323;
+  height: calc(100vh - 80px);
+  width: 350px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.MainButtonContainer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2rem;
+}
+
+.MainButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  border: none;
+  background-color: transparent;
+  padding: 22px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 300ms linear;
+  span {
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins";
+  }
+  &:hover {
+    background-color: #343434;
+    transition: all 300ms linear;
+  }
+}
+
+.AllTasksButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background-color: transparent;
+  padding: 22px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 300ms linear;
+  span {
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins";
+  }
+  &:hover {
+    background-color: #343434;
+    transition: all 300ms linear;
+  }
+
+  .Content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.Badge {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #444444;
+  font-size: 12px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Lists {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 2rem;
+  p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #bcbcbc;
+  }
+  hr {
+    height: 1px;
+    border: none;
+    background-color: #bcbcbc;
+  }
+}
+
+.ListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ListInput {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 1.5rem;
+  .Input {
+    // width: 100%;
+    background-color: transparent;
+    border: #bcbcbc7c 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #bcbcbc;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
